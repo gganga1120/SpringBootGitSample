@@ -10,5 +10,10 @@ public class HomeController {
 	public String welocmeGit() {
 		return "welocmeGitHub";
 	}
+	
+	@GetMapping("/welcomeAzure")
+	public String azure() {
+		return "sucessfully deployed the springbot web app into azure";
+	}
 }
 
