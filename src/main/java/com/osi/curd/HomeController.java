@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HomeController {
 
-	@GetMapping("/welocmeGit")
+	@GetMapping("/welcomeGit")
 	public String welocmeGit() {
-		return "welocmeGitHub";
+		return "WELCOME TO GITHUB";
 	}
 	
 	@GetMapping("/welcomeAzure")
